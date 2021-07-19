@@ -1,4 +1,4 @@
-def calculating_math_func(data):
+def calculating_math_func(data = 10):
     result = 1
     for index in range(1, data + 1):
         result *= index
@@ -7,3 +7,4 @@ def calculating_math_func(data):
     return result
 
 # TODO оптимизировать функцию
+print(calculating_math_func())
